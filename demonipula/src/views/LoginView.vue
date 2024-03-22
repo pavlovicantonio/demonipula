@@ -9,7 +9,7 @@
               :type="showPassword ? 'text' : 'password'"
               @click:append="showPassword = !showPassword" class="vtf">
       </v-text-field>
-      <p style="padding: 15px">New user? <router-link to="about">Create an account!</router-link></p>
+      <p style="padding: 15px">New user? <router-link to="registration">Create an account!</router-link></p>
       <center>
         <v-btn style="margin-bottom: 15px; background-color: #294B29; color: white;">Login</v-btn>
       </center>
