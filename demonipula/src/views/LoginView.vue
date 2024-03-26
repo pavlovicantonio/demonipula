@@ -11,7 +11,7 @@
       </v-text-field>
       <p style="padding: 15px">New user? <router-link to="registration">Create an account!</router-link></p>
       <center>
-        <v-btn style="margin-bottom: 15px; background-color: #294B29; color: white;">Login</v-btn>
+        <v-btn style="margin-bottom: 15px; background-color: #294B29; color: white;"><router-link to="shirts">Login</router-link></v-btn>
       </center>
     </v-card>
   </div>
@@ -32,9 +32,6 @@ export default ({
 </script>
 
 <style>
-  body{
-    background-color: aqua;
-  }
   .login{
     width: 70%;
     margin-left: auto;
